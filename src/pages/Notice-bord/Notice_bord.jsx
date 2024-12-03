@@ -37,69 +37,79 @@ function Notice_bord() {
             Transfar order
           </button>
         </div>
-        <table className="table">
-          <thead>
-            <tr>
-              <th className="rounded bg-primary text-white">SL</th>
-              <th className="rounded bg-primary text-white">Subjuct</th>
-              <th className="rounded bg-primary text-white">Reference No</th>
-              <th className="rounded bg-primary">Date</th>
-              <th className="rounded bg-primary visibile-sm-invisible">
-                Download
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>1</th>
-              <th>Transfar order two (02) officer</th>
-              <th>BOU/Admin-10(05)/01/94/part-4/763</th>
-              <th>2024-02-08</th>
-              <th>
-                <button className="btn btn-primary d-sm-none">Dwonload</button>
-              </th>
-            </tr>
-            <tr>
-              <th>2</th>
-              <th>Transfar order two (02) officer</th>
-              <th>BOU/Admin-10(05)/01/94/part-4/763</th>
-              <th>2024-02-08</th>
-              <th>
-                <button className="btn btn-primary d-sm-none">Dwonload</button>
-              </th>
-            </tr>
-            <tr>
-              <th>3</th>
-              <th>Transfar order two (02) officer</th>
-              <th>BOU/Admin-10(05)/01/94/part-4/763</th>
-              <th>2024-02-08</th>
-              <th className="d-sm-none">
-                <button className="btn btn-primary">Dwonload</button>
-              </th>
-            </tr>
-            <tr>
-              <th>4</th>
-              <th>Transfar order two (02) officer</th>
-              <th>BOU/Admin-10(05)/01/94/part-4/763</th>
-              <th>2024-02-08</th>
-              <th>
-                <button className="btn btn-primary d-sm-none">Dwonload</button>
-              </th>
-            </tr>
-            <tr>
-              <th>5</th>
-              <th>Transfar order two (02) officer</th>
-              <th>BOU/Admin-10(05)/01/94/part-4/763</th>
-              <th>2024-02-08</th>
-              <th>
-                <button className="btn btn-primary d-sm-none">Dwonload</button>
-              </th>
-            </tr>
-          </tbody>
-        </table>
-        <button className="btn btn-primary m-auto mb-3  d-block">
-          Read more
-        </button>
+        <div className="overflow-x-scroll ">
+          <table className="table">
+            <thead>
+              <tr>
+                <th className="rounded bg-primary text-white">SL</th>
+                <th className="rounded bg-primary text-white">Subjuct</th>
+                <th className="rounded bg-primary text-white">Reference No</th>
+                <th className="rounded bg-primary">Date</th>
+                <th className="rounded bg-primary visibile-sm-invisible">
+                  Download
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>1</th>
+                <th>Transfar order two (02) officer</th>
+                <th>BOU/Admin-10(05)/01/94/part-4/763</th>
+                <th>2024-02-08</th>
+                <th>
+                  <button className="btn btn-primary d-sm-none">
+                    Dwonload
+                  </button>
+                </th>
+              </tr>
+              <tr>
+                <th>2</th>
+                <th>Transfar order two (02) officer</th>
+                <th>BOU/Admin-10(05)/01/94/part-4/763</th>
+                <th>2024-02-08</th>
+                <th>
+                  <button className="btn btn-primary d-sm-none">
+                    Dwonload
+                  </button>
+                </th>
+              </tr>
+              <tr>
+                <th>3</th>
+                <th>Transfar order two (02) officer</th>
+                <th>BOU/Admin-10(05)/01/94/part-4/763</th>
+                <th>2024-02-08</th>
+                <th className="d-sm-none">
+                  <button className="btn btn-primary">Dwonload</button>
+                </th>
+              </tr>
+              <tr>
+                <th>4</th>
+                <th>Transfar order two (02) officer</th>
+                <th>BOU/Admin-10(05)/01/94/part-4/763</th>
+                <th>2024-02-08</th>
+                <th>
+                  <button className="btn btn-primary d-sm-none">
+                    Dwonload
+                  </button>
+                </th>
+              </tr>
+              <tr>
+                <th>5</th>
+                <th>Transfar order two (02) officer</th>
+                <th>BOU/Admin-10(05)/01/94/part-4/763</th>
+                <th>2024-02-08</th>
+                <th>
+                  <button className="btn btn-primary d-sm-none">
+                    Dwonload
+                  </button>
+                </th>
+              </tr>
+            </tbody>
+          </table>
+          <button className="btn btn-primary m-auto mb-3  d-block">
+            Read more
+          </button>
+        </div>
       </div>
     </div>
   );

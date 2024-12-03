@@ -1,6 +1,6 @@
 import About from "../About/About";
 import Applications from "../Applications/Applications";
-import Events from "../Events/Events";
+// import Events from "../Events/Events";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Home from "../Home/Home";
